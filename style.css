@@ -1,0 +1,97 @@
+body {
+  background-color: pink
+}
+img { background-position: center;}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width:200px;
+}
+.bottom-container {
+  background-color: #DB7093;
+  padding: 50px 0 20px;
+}
+
+a{
+  color: #pink;
+  font-family: "Montserrat", sans-serif;
+}
+
+hr {
+  border: dotted #DB7093 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+h1 {
+  font-size:400.5%;
+  margin-top: 0;
+  font-family:"Sacremento" cursive;
+}
+h2{
+  color: #DB7093 ;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3{
+  font-family: "Montserrat", sans-serif;
+}
+.edu-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.education-rows{
+width:50%;
+margin: 100px auto 100px auto;
+}
+
+.work-rows{
+width:50%;
+margin: 50px auto 50px auto;
+}
+
+
+.work-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.contact-message {
+  width:40%;
+  margin:40px auto 60px;
+}
+
+.btn {
+  background: pink;
+  background-image: -webkit-linear-gradient (top, pink, purple);
+  background-image: -moz-linear-gradient (top, pink, purple);
+  background-image: -ms-linear-gradient(top, pink, purple);
+  background-image: -o- linear-gradient(top, pink, purple);
+  background-image: linear-gradient(to bottom, pink, purple);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+  color: #ffff
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover{
+  background: pink;
+  background-image: -webkit-linear-gradient(top, pink, purple);
+  background-image: -moz-linear-gradient (top, pink, purple);
+  background-image: -ms-linear-gradient(top, pink, purple);
+  background-image: -o- linear-gradient(top, pink, purple);
+  background-image: linear-gradient(to bottom, pink, purple);
+  text-decoration: none;
+}
